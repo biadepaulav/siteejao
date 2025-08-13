@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Site: sobre o cantor Jão</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+ 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amarante&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="logo">
+			Logo
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html#inicio"> inicio </a></li>
+					<li><a href="index.html#sobre"> quem é </a></li>
+					<li><a href="index.html#historia"> história </a></li>
+					<li><a href="index.html#albuns"> álbuns </a></li>
+					<li><a href="contato.html"> contato </a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="inicio" class="banner">
+			<h1>
+				Entre em contato!
+			</h1>
+			<br>
+			<br>
+			<br>
+		</section>
+	
+	<main>
+		<section id="contato">
+			<div class="container">
+				<h1 class="centraliza">Contato</h1>
+				<form class="formulario-contato" action="https://formsubmit.co/beatriz.de.paula290@gmail.com" method="post">
+					<div class="grupo-form">
+						<label for="nome">Nome Completo:</label>
+						<input type="text" id="nome" name="nome" required>
+					</div>
+
+					<div class="grupo-form">
+						<label for="email">e-mail:</label>
+						<input type="text" id="email" name="email" required>
+					</div>
+
+					<div class="grupo-form">
+						<label for="idade">idade:</label>
+						<input type="number" id="idade" name="idade" min="10" max="120" required>
+					</div>
+
+					<div class="grupo-form">
+						<label for="data">data da consulta:</label>
+						<input type="date" id="data" name="data" required>
+					</div>
+
+					<div class="grupo-form">
+						<label for="album">Qual o seu albúm favorito?</label>
+						<select id="album" name="album">
+						  <option value="lobos">Lobos</option>
+						  <option value="antiheroi">Anti-Herói</option>
+						  <option value="pirata">Pirata</option>
+						  <option value="super">Super</option>
+						</select>
+					</div>
+					<div class="grupo-form">
+					<label>grau de interesse:</label>
+					<input type="range" min="0" max="100" name="interesse">
+					</div>
+
+					<div class="grupo-form">
+						<label>Gênero:</label>
+						<input type="radio" name="uso[]" value="feminino"> Feminino
+						<input type="radio" name="uso[]" value="masculino"> Masculino
+						<input type="radio" name="uso[]" value="outro"> Outro
+					</div>
+					<div class="grupo-form">
+						<label>Qual desses albuns voce conhece?</label>
+						<input type="checkbox" name="uso[]" value="lobos">Lobos
+						<input type="checkbox" name="uso[]" value="antiheroi"> Anti-Herói
+						<input type="checkbox" name="uso[]" value="pirata"> Pirata
+						<input type="checkbox" name="uso[]" value="super"> Super
+
+					</div>
+			</div>
+			<h1>Contato com a desenvolvedora do site</h1>
+		<p>Para contato:</p>
+		<ul>
+		<li>Telefone: (11)99872-1682</li>
+		<li>email: beatriz.de.paula290@gmail.com </li>
+		</ul>
+		</section>
+		
+	</main>
+	<footer>
+	<p>2025- criado por Beatriz de Paula V. - Todos os Direitos Reservados</p>	
+	</footer>
+
+
+</body>
+</html>
